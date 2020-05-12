@@ -1,3 +1,9 @@
-const app = async () => '#BuildforSDG';
+import React from 'react';
 
-export default app;
+const App = () => (
+  <header>
+    <h1>Welcome To Good Health App Where Health Matters</h1>
+  </header>
+);
+
+export default App;
