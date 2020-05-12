@@ -23,20 +23,19 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 ## Setup
 
 Install `yarn` also make sure you have node > 10 installed
-- installing yarn for windows:
-  - install scoop(https://scoop.sh/) which is an installation manager for windows
-  - for linux users. If you have node > 9 then you have yarn installed just run the command
+- install scoop(https://scoop.sh/) which is an installation manager for windows `scoop install yarn` to install yarn
+- for linux users. If you have node > 9 then you have yarn installed just run the command
 
 ### Project Setup
 clone the repo and run the command
-```
-  yarn install
+```js
+	yarn install
 ```
 once all the dep is installed
 
 ### Start server
-```
-  yarn start
+```js
+	yarn start
 ```
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
