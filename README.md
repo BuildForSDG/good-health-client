@@ -29,15 +29,15 @@ Install `yarn` also make sure you have node > 10 installed
 
 ### Project Setup
 clone the repo and run the command
-  ```
-    yarn install
-  ```
+```
+  yarn install
+```
 once all the dep is installed
 
 ### Start server
-  ```
-    yarn start
-  ```
+```
+  yarn start
+```
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
 
