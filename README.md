@@ -8,7 +8,7 @@ barebones setup for JavaScript / Node projects replace this with a one-liner phr
 
 This is a React Framework app for the Good Health BuildForSDG APP Projects
 
-- Jest: is use for tests. yet to be set
+-  Jest: is use for tests.TODO
 
 - Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
@@ -23,19 +23,19 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 ## Setup
 
 Install `yarn` also make sure you have node > 10 installed
-- install scoop(https://scoop.sh/) which is an installation manager for windows `scoop install yarn` to install yarn
-- for linux users. If you have node > 9 then you have yarn installed just run the command
+-  install [scoop](https://scoop.sh/) which is an installation manager for windows `scoop install yarn` to install yarn
+-  for linux users. If you have node > 9 then you have yarn installed just run the command
 
 ### Project Setup
 clone the repo and run the command
 ```js
-	yarn install
+  yarn install
 ```
 once all the dep is installed
 
 ### Start server
 ```js
-	yarn start
+  yarn start
 ```
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
