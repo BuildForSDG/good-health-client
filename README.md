@@ -1,18 +1,14 @@
 barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ab59022344234d01a792b6299706f4fc)](https://app.codacy.com/gh/BuildForSDG/good-health-client?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/good-health-client&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
+<!-- [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red) -->
 
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+This is a React Framework app for the Good Health BuildForSDG APP Projects
 
-Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
-
-This is a simple JavaScript starter repo template for setting up your project. The setup contains
-
-- Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
+- Jest: is use for tests. yet to be set
 
 - Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
@@ -20,15 +16,28 @@ This is a simple JavaScript starter repo template for setting up your project. T
 
 Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
 
-## Usage
+## Usage TODO
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
 
 ## Setup
 
-Install `npm` or `yarn` if you dont have any of them already installed. We recommend Yarn though.
+Install `yarn` also make sure you have node > 10 installed
+- installing yarn for windows:
+  - install scoop(https://scoop.sh/) which is an installation manager for windows
+  - for linux users. If you have node > 9 then you have yarn installed just run the command
 
-After clonning the repo to your local machine and moving into the cloned folder, Run `yarn install` to get started by installing dependencies. 
+### Project Setup
+clone the repo and run the command
+  ```
+    yarn install
+  ```
+once all the dep is installed
+
+### Start server
+  ```
+    yarn start
+  ```
 
 `src/index.js` is the entry to the project and source code should go into the `src` folder.
 
@@ -45,7 +54,7 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 - Check the codebase for proper syntax and formatting compliance: `yarn lint`
 - Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
-## Authors
+## Authors TODO
 
 List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
 
