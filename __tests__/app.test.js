@@ -1,13 +1,9 @@
-import app from '../src/index';
+import React from 'react';
+import { render } from '@testing-library/react';
+import App from '../src/App';
 
-describe('app module', () => {
-  test('it exists', async () => {
-    expect(app).toBeDefined();
-  });
-
-  test('it returns program name with SDGs', async () => {
-    const result = await app();
-    const sdgPos = (result || '').indexOf('SDG');
-    expect(sdgPos).toBeGreaterThanOrEqual(0);
-  });
+test('renders learn react link', () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
 });
